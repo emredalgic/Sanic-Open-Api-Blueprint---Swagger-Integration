@@ -4,7 +4,7 @@ from sanic_openapi import doc, swagger_blueprint
 from db.connect import SqlConnection
 testapp = Blueprint('testapp')
 
-cnx = SqlConnection(-6)  # EMEATRISTSQL Server SMDB dbo
+cnx = SqlConnection(-6)  # ISTSQL Server SMDB dbo
 
 filter_qtags = [(1, 'QIL'), (2, 'SES2'), (3, 'QYAS'),
                 (4, 'QCINS'), (5, 'HR'), (6, 'QMED1'), (7, 'SES1X1')]
